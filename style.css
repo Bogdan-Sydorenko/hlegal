@@ -4,10 +4,12 @@
 
 .body {
   font-family: "Montserrat", sans-serif;
+  margin: 0px;
 }
 
 .services {
   background-color: #323264;
+  padding-bottom: 60px;
 }
 
 .wrapper {
@@ -89,6 +91,35 @@
   line-height: 26px;
   color: #fff;
   margin: 0px;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    width: 648px;
+  }
+  .services-items-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+  }
+}
+@media (min-width: 1024px) {
+  .wrapper {
+    width: 904px;
+  }
+  .services-items-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1440px) {
+  .wrapper {
+    width: 1320px;
+  }
+}
+@media (min-width: 1920px) {
+  .wrapper {
+    width: 1600px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
