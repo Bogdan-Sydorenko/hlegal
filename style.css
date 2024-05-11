@@ -19,6 +19,14 @@
   margin-right: auto;
 }
 
+.services-title:hover .title-text-wrap .title-text {
+  color: #F0145A;
+}
+
+.services-title:hover .svg-arrow-wrap .svg-arrow path {
+  stroke: #F0145A;
+}
+
 .services-title-wrapper {
   display: flex;
   flex-direction: column;
@@ -30,6 +38,7 @@
   display: flex;
   flex-direction: row;
   gap: 2px;
+  cursor: pointer;
 }
 
 .title-text {
